@@ -24,8 +24,8 @@ def get_english_meaning
 end
 
 
-#get meaning --> keys are japanese emoticons 
+#get meaning --> keys are japanese emoticons
 # get emoticon --> keys are english emoticons
-#trying to return a hash that has two keys, one is get meaning and one is get emoticon 
-#the emoticon keys inside the emoticon hash point to their japanese equivalents 
-#and vice versa 
+#trying to return a hash that has two keys, one is get meaning and one is get emoticon
+#the emoticon keys inside the emoticon hash point to their japanese equivalents
+#and vice versa
