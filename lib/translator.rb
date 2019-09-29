@@ -16,7 +16,7 @@ emoticon_hash
 end
 
 def get_japanese_emoticon(path, emoticon)
-  load_library(path)
+  emoticon_hash = load_library(path)
   result = emoticon_hash["get_meaning"][emoticon]
 
   #take english word and return japanese emoticon
