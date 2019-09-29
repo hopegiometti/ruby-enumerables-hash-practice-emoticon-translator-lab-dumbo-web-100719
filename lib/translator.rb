@@ -12,7 +12,8 @@ emoticon_hash["get_meaning"] = {}
 emoticons.each do |definition, emoticon_set|
   emoticon_hash["get_emoticon"][emoticon_set[0]] = emoticon_set[1]
   emoticon_hash["get_meaning"][emoticon_set[1]] = definition
-
+end
+emoticon_hash
 end
 
 def get_japanese_emoticon
